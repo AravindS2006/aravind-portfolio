@@ -92,14 +92,6 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
 
  
   {
@@ -109,10 +101,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -226,7 +214,7 @@ const projects = [
     source_code_link: "https://github.com/AravindS2006/Blockchain-Visualization",
   },
   {
-    name: "GearXpert",
+    name: "Health Monitor",
     description:
       "This is a project revolutionizing personal health monitoring by bringing real-time vital signs to an intuitive and beautifully designed web dashboard. Using cutting-edge yet readily accessible technology, VitalSigns captures and displays a user's heart rate, SpO2 (blood oxygen saturation), and body temperature, providing instant insights into their well-being. This isn't just about monitoring; it's about empowering individuals to take proactive control of their health through readily available data.",
     tags: [
