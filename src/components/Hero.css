@@ -1,0 +1,43 @@
+/* Hero.css */
+.abcd h1{
+font-size: 100px;
+}
+
+.aravindselvan-typewriter {
+    overflow: hidden;
+    font-size: 0.8em;
+    border-right: 0.1em solid orange; /* Reduced cursor size slightly */
+    white-space: nowrap;
+    letter-spacing: 0.05em;
+    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+    display: inline-block; /* crucial for width calculations */
+    box-sizing: content-box; /* Include padding and border in the element's total width and height */
+    padding-bottom: 0px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 60%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    30% {
+      border-color: orange;
+    }
+  }
+  
+  /* Example responsive adjustments (customize as needed) */
+  @media (max-width: 768px) {
+    .aravindselvan-typewriter {
+      font-size: 1em; /* Adjust font size for smaller screens */
+      letter-spacing: 0.1em; /* Adjust letter spacing if needed */
+    }
+  }
