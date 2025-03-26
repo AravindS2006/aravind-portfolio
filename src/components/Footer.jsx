@@ -28,7 +28,7 @@ const Footer = () => {
           <FaLinkedin size={24} />
         </a>
       </div>
-      <span className="text-white-1000 pt-2 pb-2">
+      <span className="text-white-1000 pt-2 pb-1">
         <p>Designed By Aravindselvan</p>
       </span>
     </footer>
