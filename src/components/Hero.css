@@ -9,8 +9,7 @@
   font-size: 30px; /* Adjust size as needed */
   margin-right: 10px; /* Adds vertical space below */
   padding-right:10px;
-  line-height: 100px; 
-margin-top:0;/* Ensures consistent spacing */
+  padding-top:10px; 
 }
 
 
