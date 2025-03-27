@@ -41,5 +41,6 @@ font-size: 100px;
     .aravindselvan-typewriter {
       font-size: 1em; /* Adjust font size for smaller screens */
       letter-spacing: 0.1em; /* Adjust letter spacing if needed */
+      width: auto;
     }
   }
