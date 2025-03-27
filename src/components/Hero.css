@@ -6,6 +6,11 @@
 padding-right: 10px; 
 }
 
+.heroHeadText {
+  margin-right: 10px;
+}
+
+
 .aravindselvan-typewriter {
   white-space: nowrap; /* Prevents the text from wrapping */
   overflow: hidden;
