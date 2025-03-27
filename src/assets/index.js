@@ -29,6 +29,7 @@ import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Saravanan.jpg';
 import secondTestimonial from './Vasanth.jpg';
 import thirdTestimonial from './third testimonial.webp'
+import selfemployed from './selfemployed.png'
 
 export {
   logo,
@@ -62,5 +63,6 @@ export {
   redux,
   tailwind,
   threejs,
+  selfemployed,
 
 };

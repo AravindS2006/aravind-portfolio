@@ -35,7 +35,7 @@ const Hero = () => {
     <section className="relative w-full h-screen mx-auto">
       {/* Text content */}
       <div
-        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 z-10`} // Ensures text is on top
+        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 z-10`}
       >
         <div className="flex flex-col justify-center items-center mt-28 md:mt-5 lg:5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
@@ -58,11 +58,15 @@ const Hero = () => {
         </div>
       </div>
 
-       <div className="mt-100 w-full h-full">
-        {/* Adjust positioning to push Spline below */}
-        <div className="bottom-0 left-0 right-0 splinee">
-          <Spline scene="https://prod.spline.design/umZsINFo7jhcNnXZ/scene.splinecode" />
-        </div>
+      {/* Spline Element */}
+      <div className="absolute w-full h-full z-0">
+        <Spline
+          scene="https://prod.spline.design/umZsINFo7jhcNnXZ/scene.splinecode"
+          style={{
+            pointerEvents: "none", // Disable interactions
+          }}
+          className="spline-mobile"
+        />
       </div>
     </section>
   );
