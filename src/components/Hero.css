@@ -1,4 +1,5 @@
 /* Hero.css */
+<<<<<<< HEAD
 .abcd h1{
 font-size: 100px;
 }
@@ -41,3 +42,58 @@ font-size: 100px;
       letter-spacing: 0.1em; /* Adjust letter spacing if needed */
     }
   }
+=======
+.abcd h1 {
+  font-size: 30px; 
+  padding-right: 10px; 
+}
+
+.hitext {
+  display: inline-block; /* Ensures proper layout */
+  font-size: 30px; /* Adjust size as needed */
+  margin-right: 10px; /* Adds vertical space below */
+  padding-right:10px;
+  padding-top:10px; 
+}
+
+
+.aravindselvan-typewriter {
+  overflow: hidden;
+  font-size: 30px;
+  border-right: 0.1em solid orange; /* Reduced cursor size slightly */
+  letter-spacing: 0.05em;
+  animation: typing 2s steps(13, end), blink-caret 0.75s step-end infinite;
+  display: inline-block; /* Crucial for width calculations */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+  padding-bottom: 0px;
+  padding-right:5px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 13ch;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 300px) {
+  .aravindselvan-typewriter{
+    font-size: 0.8em; /* Slightly larger font for readability */
+    letter-spacing: 0.08em; /* Adjust letter spacing */
+    max-width: 90%; /* Ensures it doesn't exceed the container's width */
+  }
+}
+>>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65

@@ -76,6 +76,13 @@ const services = [
 ];
 
 const technologies = [
+<<<<<<< HEAD
+=======
+    {
+    name: "git",
+    icon: git,
+  },
+>>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65
   {
     name: "HTML 5",
     icon: html,
@@ -92,7 +99,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65
  
   {
     name: "Three JS",
@@ -119,10 +129,13 @@ const technologies = [
     icon: express,
   },
   {
+<<<<<<< HEAD
     name: "AWS",
     icon: aws,
   },
   {
+=======
+>>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65
     name: "MongoDB",
     icon: mongodb,
   },
@@ -131,10 +144,14 @@ const technologies = [
     icon: mysql,
   },
 
+<<<<<<< HEAD
   {
     name: "git",
     icon: git,
   },
+=======
+
+>>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65
  
 
 ];
@@ -214,7 +231,11 @@ const projects = [
     source_code_link: "https://github.com/AravindS2006/Blockchain-Visualization",
   },
   {
+<<<<<<< HEAD
     name: "Health Monitor",
+=======
+    name: "GearXpert",
+>>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65
     description:
       "This is a project revolutionizing personal health monitoring by bringing real-time vital signs to an intuitive and beautifully designed web dashboard. Using cutting-edge yet readily accessible technology, VitalSigns captures and displays a user's heart rate, SpO2 (blood oxygen saturation), and body temperature, providing instant insights into their well-being. This isn't just about monitoring; it's about empowering individuals to take proactive control of their health through readily available data.",
     tags: [
@@ -261,4 +282,8 @@ const projects = [
   },
 ];
 
+<<<<<<< HEAD
 export { services, technologies, experiences, testimonials, projects };
+=======
+export { services, technologies, experiences, testimonials, projects };
+>>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65

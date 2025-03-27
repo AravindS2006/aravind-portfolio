@@ -43,8 +43,13 @@ const Hero = () => {
         </div>
 
         <div className="abcd">
+<<<<<<< HEAD
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm{" "}
+=======
+          <h1 className={`${styles.heroHeadText} text-white style={ paddingRight: '50px' }`}>
+           <span className="hitext"> Hi, I'm{" "}</span>
+>>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65
             <span
               ref={spanRef}
               className="text-[#915EFF] aravindselvan-typewriter"
@@ -59,8 +64,12 @@ const Hero = () => {
         </div>
       </div>
 
+<<<<<<< HEAD
       <ComputersCanvas />
 
+=======
+      
+>>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
