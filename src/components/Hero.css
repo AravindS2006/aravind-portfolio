@@ -16,6 +16,7 @@ margin-right: 10px;
   display: inline-block; /* Crucial for width calculations */
   box-sizing: border-box; /* Include padding and border in the element's total width */
   padding-bottom: 0px;
+  padding-right:5px;
 }
 
 @keyframes typing {
@@ -23,7 +24,7 @@ margin-right: 10px;
     width: 0;
   }
   to {
-    width: 10%;
+    width: 50%;
   }
 }
 
