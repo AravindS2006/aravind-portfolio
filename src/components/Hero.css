@@ -1,46 +1,45 @@
 /* Hero.css */
-.abcd h1{
-font-size: 30px;
-white-space: wrap;
+.abcd h1 {
+  font-size: 30px;
+  white-space: nowrap; /* Corrected to prevent text from wrapping */
 }
 
 .aravindselvan-typewriter {
-    white-space: wrap;
-    overflow: hidden;
-    font-size: 0.6em;
-    border-right: 0.1em solid orange; /* Reduced cursor size slightly */
-    
-    letter-spacing: 0.05em;
-    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
-    display: inline-block; /* crucial for width calculations */
-    box-sizing: content-box; /* Include padding and border in the element's total width and height */
-    padding-bottom: 0px;
+  white-space: nowrap; /* Prevents the text from wrapping */
+  overflow: hidden;
+  font-size: 0.6em;
+  border-right: 0.1em solid orange; /* Reduced cursor size slightly */
+  letter-spacing: 0.05em;
+  animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+  display: inline-block; /* Crucial for width calculations */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+  padding-bottom: 0px;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
   }
-  
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
+  to {
+    width: 100%;
   }
-  
-  @keyframes blink-caret {
-    from,
-    to {
-      border-color: transparent;
-    }
-    100% {
-      border-color: orange;
-    }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
   }
-  
-  /* Example responsive adjustments (customize as needed) */
-  @media (max-width: 768px) {
-    .aravindselvan-typewriter {
-      letter-spacing: 0.1em; /* Adjust letter spacing if needed */
-      width: auto;
-      font-size: smaller;
-    }
+  50% {
+    border-color: orange;
   }
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+  .aravindselvan-typewriter {
+    font-size: 0.8em; /* Slightly larger font for readability */
+    letter-spacing: 0.08em; /* Adjust letter spacing */
+    max-width: 90%; /* Ensures it doesn't exceed the container's width */
+  }
+}
