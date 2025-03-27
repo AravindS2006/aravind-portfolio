@@ -1,12 +1,12 @@
 /* Hero.css */
 .abcd h1{
-font-size: 100px;
+font-size: 30px;
 }
 
 .aravindselvan-typewriter {
     white-space: normal;
     overflow: hidden;
-    font-size: 0.4em;
+    font-size: 0.6em;
     border-right: 0.1em solid orange; /* Reduced cursor size slightly */
     white-space: wrap;
     letter-spacing: 0.05em;
