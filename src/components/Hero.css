@@ -37,11 +37,12 @@ font-size: 100px;
   }
   
   /* Example responsive adjustments (customize as needed) */
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     .aravindselvan-typewriter {
       max-width: 100%;
-      font-size: 1em; /* Adjust font size for smaller screens */
+      
       letter-spacing: 0.1em; /* Adjust letter spacing if needed */
       width: auto;
+font-size: smaller;
     }
   }
