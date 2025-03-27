@@ -3,8 +3,10 @@ import { FaInstagram, FaXTwitter, FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="w-full py-1 bg-black-100/55 text-white flex flex-col items-center padding-bottom">
-  
+    <footer className="w-full py-4 bg-black-100/55 text-white flex flex-col items-center">
+      <span>
+        <p>Designed By Aravindselvan</p>
+      </span>
       <div className="flex gap-6 mt-2">
         <a
           href="https://www.instagram.com/nova__trades/"
@@ -28,15 +30,8 @@ const Footer = () => {
           <FaLinkedin size={24} />
         </a>
       </div>
-      <span className="text-white-1000 pt-2 pb-1">
-        <p>Designed By Aravindselvan</p>
-      </span>
     </footer>
   );
 };
 
-<<<<<<< HEAD
 export default Footer;
-=======
-export default Footer;
->>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65

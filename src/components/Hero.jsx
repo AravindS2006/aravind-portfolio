@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from "react";
-import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import "./Hero.css"; // Import the CSS file
+import Spline from "@splinetool/react-spline"; // Correct import statement
 
 const Hero = () => {
   const spanRef = useRef(null); // Ref for the span element
@@ -33,26 +32,21 @@ const Hero = () => {
   }, []); // Run only once on mount
 
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className="relative w-full h-screen mx-auto">
+      {/* Text content */}
       <div
-        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 z-10`} // Ensures text is on top
       >
         <div className="flex flex-col justify-center items-center mt-28 md:mt-5 lg:5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
-
-        <div className="abcd">
-<<<<<<< HEAD
+        <div className="aravindselvan-typewriter">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm{" "}
-=======
-          <h1 className={`${styles.heroHeadText} text-white style={ paddingRight: '50px' }`}>
-           <span className="hitext"> Hi, I'm{" "}</span>
->>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65
             <span
-              ref={spanRef}
-              className="text-[#915EFF] aravindselvan-typewriter"
+              className="text-[#915EFF]"
+              ref={spanRef} // Attach the ref here
             >
               Aravindselvan
             </span>
@@ -64,28 +58,11 @@ const Hero = () => {
         </div>
       </div>
 
-<<<<<<< HEAD
-      <ComputersCanvas />
-
-=======
-      
->>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop"
-              }}
-              className="w-3 h-3 rounded-full bg-secondary mb-1"
-            />
-          </div>
-        </a>
+       <div className="mt-100 w-full h-full">
+        {/* Adjust positioning to push Spline below */}
+        <div className="bottom-0 left-0 right-0 splinee">
+          <Spline scene="https://prod.spline.design/umZsINFo7jhcNnXZ/scene.splinecode" />
+        </div>
       </div>
     </section>
   );

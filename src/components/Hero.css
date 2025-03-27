@@ -1,72 +1,18 @@
-/* Hero.css */
-<<<<<<< HEAD
-.abcd h1{
-font-size: 100px;
-}
-
-.aravindselvan-typewriter {
-    overflow: hidden;
-    font-size: 0.8em;
-    border-right: 0.1em solid orange; /* Reduced cursor size slightly */
-    white-space: nowrap;
-    letter-spacing: 0.05em;
-    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
-    display: inline-block; /* crucial for width calculations */
-    box-sizing: content-box; /* Include padding and border in the element's total width and height */
-    padding-bottom: 0px;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width: 60%;
-    }
-  }
-  
-  @keyframes blink-caret {
-    from,
-    to {
-      border-color: transparent;
-    }
-    30% {
-      border-color: orange;
-    }
-  }
-  
-  /* Example responsive adjustments (customize as needed) */
-  @media (max-width: 768px) {
-    .aravindselvan-typewriter {
-      font-size: 1em; /* Adjust font size for smaller screens */
-      letter-spacing: 0.1em; /* Adjust letter spacing if needed */
-    }
-  }
-=======
-.abcd h1 {
-  font-size: 30px; 
-  padding-right: 10px; 
-}
-
-.hitext {
-  display: inline-block; /* Ensures proper layout */
-  font-size: 30px; /* Adjust size as needed */
-  margin-right: 10px; /* Adds vertical space below */
-  padding-right:10px;
-  padding-top:10px; 
-}
-
-
-.aravindselvan-typewriter {
+/* Typewriter Effect - General */
+.aravindselvan-typewriter span {
+  vertical-align: bottom; /* Aligns text to the bottom of its container */
+  position: relative;
+  display: inline-block;
+  border-right: 2px solid #915EFF;
+  white-space: nowrap;
   overflow: hidden;
-  font-size: 30px;
-  border-right: 0.1em solid orange; /* Reduced cursor size slightly */
-  letter-spacing: 0.05em;
-  animation: typing 2s steps(13, end), blink-caret 0.75s step-end infinite;
-  display: inline-block; /* Crucial for width calculations */
-  box-sizing: border-box; /* Include padding and border in the element's total width */
-  padding-bottom: 0px;
-  padding-right:5px;
+  animation: typing 3s steps(26, end), blink 01s step-end infinite;
+  padding-left: 5px;
+}
+
+/* Responsive Adjustments */
+.aravindselvan-typewriter span {
+  width: calc(12ch); /* Dynamic width based on character count */
 }
 
 @keyframes typing {
@@ -74,26 +20,20 @@ font-size: 100px;
     width: 0;
   }
   to {
-    width: 13ch;
+    width: calc(12ch); /* Matches the total width of "Aravindselvan" */
   }
 }
 
-@keyframes blink-caret {
-  from,
-  to {
+@keyframes blink {
+  0% {
     border-color: transparent;
   }
-  50% {
+  50%{
     border-color: orange;
   }
 }
 
-/* Responsive adjustments for mobile screens */
-@media (max-width: 300px) {
-  .aravindselvan-typewriter{
-    font-size: 0.8em; /* Slightly larger font for readability */
-    letter-spacing: 0.08em; /* Adjust letter spacing */
-    max-width: 90%; /* Ensures it doesn't exceed the container's width */
-  }
+.splinee{
+  display: flex;
+  padding-top: 150px;
 }
->>>>>>> 2f0afa9c87b976c006b6a3270a6523cdbf26cb65
