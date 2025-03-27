@@ -5,7 +5,7 @@ white-space: wrap;
 }
 
 .aravindselvan-typewriter {
-    white-space: normal;
+    white-space: wrap;
     overflow: hidden;
     font-size: 0.6em;
     border-right: 0.1em solid orange; /* Reduced cursor size slightly */
@@ -18,7 +18,6 @@ white-space: wrap;
   }
   
   @keyframes typing {
-padding-right: 0px;
     from {
       width: 0;
     }
@@ -32,16 +31,16 @@ padding-right: 0px;
     to {
       border-color: transparent;
     }
-    20% {
+    100% {
       border-color: orange;
     }
   }
   
   /* Example responsive adjustments (customize as needed) */
-  @media (max-width: 500px) {
+  @media (max-width: 768px) {
     .aravindselvan-typewriter {
       letter-spacing: 0.1em; /* Adjust letter spacing if needed */
       width: auto;
-font-size: smaller;
+      font-size: smaller;
     }
   }
