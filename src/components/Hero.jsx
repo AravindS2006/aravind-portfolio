@@ -43,7 +43,7 @@ const Hero = () => {
         </div>
 
         <div className="abcd">
-          <h1 className={`${styles.heroHeadText} text-white style={{ marginRight: '10px' }`}>
+          <h1 className={`${styles.heroHeadText} text-white style={ marginRight: '50px' }`}>
             Hi, I'm{" "}
             <span
               ref={spanRef}
