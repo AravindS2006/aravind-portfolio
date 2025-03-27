@@ -22,7 +22,7 @@ white-space: wrap;
       width: 0;
     }
     to {
-      width: 60%;
+      width: 50%;
     }
   }
   
@@ -31,7 +31,7 @@ white-space: wrap;
     to {
       border-color: transparent;
     }
-    30% {
+    20% {
       border-color: orange;
     }
   }
@@ -39,7 +39,7 @@ white-space: wrap;
   /* Example responsive adjustments (customize as needed) */
   @media (max-width: 500px) {
     .aravindselvan-typewriter {
-      max-width: 100%;
+      max-width: 80%;
       
       letter-spacing: 0.1em; /* Adjust letter spacing if needed */
       width: auto;
