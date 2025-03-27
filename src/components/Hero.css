@@ -6,8 +6,9 @@
 
 .hitext {
   display: inline-block; /* Ensures proper layout */
-  font-size: 1.5em; /* Adjust size as needed */
-  margin-bottom: 10px; /* Adds vertical space below */
+  font-size: 30px; /* Adjust size as needed */
+  margin-right: 10px; /* Adds vertical space below */
+  padding-right:10px;
   line-height: 1; /* Ensures consistent spacing */
 }
 
