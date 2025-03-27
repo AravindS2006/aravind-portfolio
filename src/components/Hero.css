@@ -1,9 +1,7 @@
 /* Hero.css */
 .abcd h1 {
-  font-size: 30px;
-  white-space: nowrap; /* Corrected to prevent
- text from wrapping */
-padding-right: 10px; 
+  font-size: 0.8em; 
+  padding-right: 10px; 
 }
 
 .heroHeadText {
@@ -12,9 +10,8 @@ padding-right: 10px;
 
 
 .aravindselvan-typewriter {
-  white-space: nowrap; /* Prevents the text from wrapping */
   overflow: hidden;
-  font-size: 0.6em;
+  font-size: 0.8em;
   border-right: 0.1em solid orange; /* Reduced cursor size slightly */
   letter-spacing: 0.05em;
   animation: typing 2s steps(13, end), blink-caret 0.75s step-end infinite;
@@ -46,7 +43,6 @@ padding-right: 10px;
 /* Responsive adjustments for mobile screens */
 @media (max-width: 300px) {
   .aravindselvan-typewriter{
- padding-right:10px;
     font-size: 0.8em; /* Slightly larger font for readability */
     letter-spacing: 0.08em; /* Adjust letter spacing */
     max-width: 90%; /* Ensures it doesn't exceed the container's width */
