@@ -33,14 +33,15 @@ padding-right: 10px;
   to {
     border-color: transparent;
   }
-  100% {
+  50% {
     border-color: orange;
   }
 }
 
 /* Responsive adjustments for mobile screens */
 @media (max-width: 300px) {
-  .aravindselvan-typewriter {
+  .aravindselvan-typewriter{
+ padding-right:10px;
     font-size: 0.8em; /* Slightly larger font for readability */
     letter-spacing: 0.08em; /* Adjust letter spacing */
     max-width: 90%; /* Ensures it doesn't exceed the container's width */
