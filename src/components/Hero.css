@@ -5,8 +5,10 @@
 }
 
 .hitext {
-  margin-right: 10px;
-padding-right:10px;
+  display: inline-block; /* Ensures proper layout */
+  font-size: 1.5em; /* Adjust size as needed */
+  margin-bottom: 10px; /* Adds vertical space below */
+  line-height: 1; /* Ensures consistent spacing */
 }
 
 
