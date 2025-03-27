@@ -4,6 +4,8 @@ font-size: 100px;
 }
 
 .aravindselvan-typewriter {
+    white-space: normal;
+    word-wrap: break-word;
     overflow: hidden;
     font-size: 0.8em;
     border-right: 0.1em solid orange; /* Reduced cursor size slightly */
