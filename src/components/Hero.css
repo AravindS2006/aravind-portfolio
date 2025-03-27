@@ -5,11 +5,10 @@ font-size: 100px;
 
 .aravindselvan-typewriter {
     white-space: normal;
-    word-wrap: break-word;
     overflow: hidden;
-    font-size: 0.8em;
+    font-size: 0.4em;
     border-right: 0.1em solid orange; /* Reduced cursor size slightly */
-    white-space: nowrap;
+    white-space: wrap;
     letter-spacing: 0.05em;
     animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
     display: inline-block; /* crucial for width calculations */
