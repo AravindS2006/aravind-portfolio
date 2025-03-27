@@ -1,7 +1,9 @@
 /* Hero.css */
 .abcd h1 {
   font-size: 30px;
-  white-space: nowrap; /* Corrected to prevent text from wrapping */
+  white-space: nowrap; /* Corrected to prevent
+ text from wrapping */
+margin-right: 10px; 
 }
 
 .aravindselvan-typewriter {
