@@ -44,7 +44,7 @@ const Hero = () => {
 
         <div className="abcd">
           <h1 className={`${styles.heroHeadText} text-white style={ paddingRight: '50px' }`}>
-            Hi, I'm{" "}
+           <span class name="hitext" Hi, I'm{" "}</span>
             <span
               ref={spanRef}
               className="text-[#915EFF] aravindselvan-typewriter"
