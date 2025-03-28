@@ -5,7 +5,7 @@ import "./Certificates.css"; // Import custom styles
 const certificates = Array.from({ length: 10 }, (_, i) => ({
   id: i + 1,
   title: `Certificate ${i + 1}`,
-  image: `/asts/certificates/${i + 1}.png`,
+  image: `/asts/certificates/${i + 1}.png`, // Corrected path for public folder
 }));
 
 const Certificates = () => {
