@@ -258,4 +258,42 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const certificates = [
+  {
+    id: 1,
+    title: "Certificate 1",
+    link: "https://drive.google.com/file/d/18FWSEha06nQeKcvj-hvj9RhYvK1TDMPl/view?usp=drive_link",
+  },
+  {
+    id: 2,
+    title: "Certificate 2",
+    link: "https://drive.google.com/file/d/17lR2finSjn-tmwRG8d91IQyaDhp_PgUA/view?usp=drive_link",
+  },
+  {
+    id: 3,
+    title: "Certificate 3",
+    link: "https://drive.google.com/file/d/16v5g5XJwes9PT-_yqHFgJsYeJPgUP3-T/view?usp=drive_link",
+  },
+  {
+    id: 4,
+    title: "Certificate 4",
+    link: "https://drive.google.com/file/d/16ndp4L0yHQ-ikxeePKlxg1Rq3gNppkEU/view?usp=drive_link",
+  },
+  {
+    id: 5,
+    title: "Certificate 5",
+    link: "https://drive.google.com/drive/folders/15gxV5A-TuwWPAcigLemsDhAuSLfFewte?usp=drive_link",
+  },
+  // Add more certificates here...
+];
+
+// Generate the remaining certificates dynamically
+for (let i = 6; i <= 41; i++) {
+  certificates.push({
+    id: i,
+    title: `Certificate ${i}`,
+    link: "https://drive.google.com/drive/folders/15gxV5A-TuwWPAcigLemsDhAuSLfFewte?usp=drive_link",
+  });
+}
+
+export { services, technologies, experiences, testimonials, projects, certificates };
